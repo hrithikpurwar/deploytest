@@ -47,8 +47,7 @@ Markdown
 MarkupSafe==1.1.1
 matplotlib==3.3.4
 mistune==0.8.4
-mkl-fft
-mkl-random
+
 
 nbclient 
 nbconvert 
@@ -91,7 +90,7 @@ termcolor==1.1.0
 terminado==0.9.2
 testpath 
 tifffile
-torch==1.8.0
+
 tornado 
 traitlets 
 typing-extensions==3.7.4.3
