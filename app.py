@@ -39,7 +39,7 @@ def main_fight(accuracyfight=0.91):
         # file = open("tmp.mp4", "wb")
         # file.write(filev.read())
         # file.close()
-        vid = video_mamonreader(cv2,"hdfight.mp4")
+        vid = video_mamonreader(cv2,"https://drive.google.com/file/d/1CWPUtttwSj2jBjKOlJb-vHcHZxf_kJAb/view?usp=sharing")
         datav = np.zeros((1, 30, 160, 160, 3), dtype=np.float)
         datav[0][:][:] = vid
         millis = int(round(time.time() * 1000))
