@@ -17,7 +17,7 @@ from tensorflow.python.client import device_lib
 print(device_lib.list_local_devices())
 
 
-def mamon_videoFightModel2(tf,wight='mamonbest947oscombo.hdfs'):
+def mamon_videoFightModel2(tf,wight='https://drive.google.com/file/d/1r8tEOVm2MIWnxax0xML6WgIB7ytWBjwU/view?usp=sharing'):
     layers = tf.keras.layers
     models = tf.keras.models
     losses = tf.keras.losses
@@ -121,5 +121,5 @@ model22 = mamon_videoFightModel2(tf)
 
 
 #model22._make_predict_function()
-res = main_fight('hdfight.mp4')
+res = main_fight('https://drive.google.com/file/d/1CWPUtttwSj2jBjKOlJb-vHcHZxf_kJAb/view?usp=sharing')
 print(res)
