@@ -19,7 +19,7 @@ app = Flask(__name__)
 def client():
     target = "http://0.0.0.0:5000"
     urls = target + '/api/fight/'
-    ws = open('hdfight.mp4', 'rb')#.read()
+    ws = open('https://drive.google.com/file/d/1CWPUtttwSj2jBjKOlJb-vHcHZxf_kJAb/view?usp=sharing', 'rb')#.read()
     files = {'file': ws}
     info = {'gps':'12344333','id':'11977354',"time-stamp":'3240234049820349'}
     millis = int(round(time.time() * 1000))
