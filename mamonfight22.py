@@ -28,7 +28,7 @@ def video_mamonreader(cv2,filename):
         i +=1
     return frames
 
-def mamon_videoFightModel(tf,wight='mamon-videofight100.hdf5'):
+def mamon_videoFightModel(tf,wight='https://drive.google.com/file/d/1r8tEOVm2MIWnxax0xML6WgIB7ytWBjwU/view?usp=sharing'):
     layers = tf.keras.layers
     models = tf.keras.models
     losses = tf.keras.losses
@@ -59,7 +59,7 @@ def mamon_videoFightModel(tf,wight='mamon-videofight100.hdf5'):
 
 
 
-def mamon_videoFightModel2(tf,wight='mamonbest947oscombo.hdfs'):
+def mamon_videoFightModel2(tf,wight='https://drive.google.com/file/d/1r8tEOVm2MIWnxax0xML6WgIB7ytWBjwU/view?usp=sharing'):
     layers = tf.keras.layers
     models = tf.keras.models
     losses = tf.keras.losses
